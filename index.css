@@ -2,7 +2,7 @@ body {
     background-color: rgb(176, 239, 243);
     height: 100%;
     max-width: 960px;
-    min-width: 640px;
+    min-width: 300px;
     width: 90%;
     margin-top: 0px;
     margin-left: auto;  
@@ -12,45 +12,40 @@ body {
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    float: left;
-    margin-bottom: 8px;
-    width: 60%;
+    padding: 0px 20px;
+    margin: 8px 0px;
     font-size: 1em;
+    flex: 1 1 1000px;
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none; 
     color: black;
 }
 
 p {
-    width: 60%;
-    clear: both;
-    margin-top: 0px;
-}
-
-img {
-    float: left;
-    margin-left: 40PX;
+    padding-right: 20px;
+    margin: 20px 20px 0px 0px;
+    flex: 1 1 300px;
 }
 
 
 img {
-    position: absolute;
-    top: 60px;
-    left: 62%;
-    margin-left: 40px;
-
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 170px;
+    flex: 1 1 280px;
 }
 
 
 article.card {
-     /* Add shadows to create the "card" effect */
-     position: relative;
-     background-color: white;
-     border-radius: 20px;
-     margin-top:  20px;
-     padding: 12px;
-     box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.5);
-     transition: 0.3s;
+  background-color: white;
+  border-radius: 30px;
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
 }
